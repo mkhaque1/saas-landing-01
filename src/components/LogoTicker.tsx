@@ -21,7 +21,7 @@ export const LogoTicker = () => {
     <div className=" bg-black text-white">
       <div className=" text-center py-24 md:py-32">
         <p className="py-5 text-xl">
-          Trusted by the world's most innovative teams
+          Trusted by the worlds most innovative teams
         </p>
         <Marquee
           gradient={true}
