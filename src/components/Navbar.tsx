@@ -1,14 +1,13 @@
 import Image from "next/image";
 import logoimg from "../assets/images/logosaas.png";
 import MenuIcon from "../assets/icons/menu.svg";
-import { clsx } from "clsx";
 
 export const Navbar = () => {
   return (
     <div className="bg-black">
       <div className=" container flex justify-between px-5 py-4 ">
         <div className=" relative">
-          <div className=" absolute w-full blur-md top-2 bottom-0 bg-[linear-gradient(to_right,#FCD6FF,#29D8FF,#FFFD80,#F89ABF)]"></div>
+          <div className=" absolute w-full blur-md top-0 bottom-0 bg-[linear-gradient(to_right,#FCD6FF,#29D8FF,#FFFD80,#F89ABF)]"></div>
           <Image src={logoimg} alt="logo" className=" w-10 h-10 relative" />
         </div>
 
