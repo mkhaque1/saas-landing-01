@@ -36,7 +36,7 @@ export const Hero = () => {
               className=" hidden md:inline w-40 h-40 absolute top-[36%] right-[-29%]"
             />
           </div>
-          <p className=" text-white text-center md:item-center md:w-[448px] px-10 ">
+          <p className=" text-white text-center md:text-xl md:item-center md:w-[448px] px-10 ">
             Celebrate the joy of accomplishment with an app designed to track
             your progress, motivate your efforts, and celebrate your successes.
           </p>
