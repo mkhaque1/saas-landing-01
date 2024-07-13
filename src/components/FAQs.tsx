@@ -22,5 +22,18 @@ const items = [
 ];
 
 export const FAQs = () => {
-  return null;
+  return (
+    <div className="bg-black bg-[linear-gradient(to_bottom,#5D2CA8,#000000)] text-white">
+      <div className="container py-24 text-center">
+        <div className="flex flex-col justify-center items-center mb-5">
+          <h1 className="text-6xl font-bold tracking-tighter">
+            Frequently asked questions
+          </h1>
+        </div>
+        <div className="faq text-center">
+          <h3>sample FAQ 1</h3>
+        </div>
+      </div>
+    </div>
+  );
 };
