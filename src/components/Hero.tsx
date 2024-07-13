@@ -5,7 +5,7 @@ import Msg from "../assets/images/message.png";
 
 export const Hero = () => {
   return (
-    <div className=" relative overflow-clip bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] py-[72px]">
+    <div className=" relative overflow-clip bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] py-[72px] md:py-[126px]">
       <div className=" container relative">
         <div className=" flex items-center justify-center flex-col gap-10">
           <a
@@ -45,7 +45,7 @@ export const Hero = () => {
           </button>
         </div>
       </div>
-      <div className=" absolute -z-0 h-[375px] w-[750px] md:h-[786px] md:w-[1440px] rounded-[100%] bg-black left-[50%] translate-x-[-50%] border border-[#b48cde] bg-[radial-gradient(closest-side,#000000_82%,#9560EB)] top-[calc(100%-96px)] md:top-[calc(100%-56px)]"></div>
+      <div className=" absolute -z-0 h-[375px] w-[750px] md:h-[686px] md:w-[2440px] rounded-[100%] bg-black left-[50%] translate-x-[-50%] border border-[#b48cde] bg-[radial-gradient(closest-side,#000000_82%,#9560EB)] top-[calc(100%-96px)] md:top-[calc(100%-156px)]"></div>
     </div>
   );
 };
