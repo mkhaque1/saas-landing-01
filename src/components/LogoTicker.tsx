@@ -19,8 +19,8 @@ const images = [
 export const LogoTicker = () => {
   return (
     <div className=" bg-black text-white">
-      <div className=" text-center py-24 md:py-32">
-        <p className="py-5 text-xl">
+      <div className="flex flex-col items-center text-center py-14 md:py-32">
+        <p className="py-5 text-xl w-[256px] md:w-full opacity-70">
           Trusted by the worlds most innovative teams
         </p>
         <Marquee

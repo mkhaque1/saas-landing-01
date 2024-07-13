@@ -17,5 +17,18 @@ const features = [
 ];
 
 export const Features = () => {
-  return null;
+  return (
+    <div className=" bg-black text-white">
+      <div className=" container py-24 text-center">
+        <h1 className=" text-6xl font-bold tracking-tighter">
+          Everything you need
+        </h1>
+        <p className=" py-5">
+          Enjoy customizable lists, team work tools, and smart tracking all in
+          one place. Set tasks, get reminders, and see your progress simply and
+          quickly.
+        </p>
+      </div>
+    </div>
+  );
 };
