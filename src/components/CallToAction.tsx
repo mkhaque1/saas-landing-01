@@ -26,11 +26,15 @@ export const CallToAction: React.FC = () => {
           >
             Get instant access
           </motion.h1>
-          <Image
-            className=" hidden md:inline w-40 h-40 absolute top-[36%] left-[-35%] "
-            src={EmojiStar}
-            alt="footer item"
-          />
+          <motion.div drag dragSnapToOrigin>
+            <Image
+              className=" hidden md:inline w-40 h-40 absolute top-[36%] left-[-35%] "
+              src={EmojiStar}
+              alt="footer item"
+              draggable="false"
+            />
+          </motion.div>
+
           <Image
             className=" hidden md:inline w-40 h-40 absolute top-[36%] right-[-29%] floating"
             src={Helix2}
@@ -43,20 +47,23 @@ export const CallToAction: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row gap-5 mt-5">
-          <form onSubmit={handleSubmit} className="flex gap-3">
+        <div className="w-full md:flex md:justify-center mt-5">
+          <form
+            onSubmit={handleSubmit}
+            className=" flex flex-col gap-5 md:flex-row"
+          >
             <input
               type="email"
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="your@email.com"
-              className="px-4 py-2 w-[270px] md:w-[400px] md rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-800"
+              className="px-4 py-2 w-full md:w-[400px] bg-slate-800 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-800"
               required
             />
             <button
               type="submit"
-              className="bg-slate-800 text-zinc-200 px-4 py-2 rounded-md hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="bg-slate-200 w-full md:w-[150px] text-zinc-800 px-4 py-2 rounded-md hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               Get Access
             </button>

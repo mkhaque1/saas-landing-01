@@ -32,11 +32,11 @@ export const Features: React.FC = () => {
         <div className="flex flex-col justify-center items-center mb-5">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{
               type: "spring",
               stiffness: 100,
-              duration: 5,
+              duration: 2,
               damping: 5,
             }}
             className="text-6xl font-bold tracking-tighter"

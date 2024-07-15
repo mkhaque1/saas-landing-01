@@ -49,10 +49,16 @@ export const FAQs: React.FC = () => {
           className="flex flex-col justify-center items-center mb-5"
         >
           <motion.h1
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
-            className="text-3xl font-bold md:text-6xl py-5 tracking-tighter"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 100,
+              duration: 5,
+
+              damping: 5,
+            }}
+            className="text-5xl font-bold md:text-7xl py-5 tracking-tighter"
           >
             Frequently asked questions
           </motion.h1>

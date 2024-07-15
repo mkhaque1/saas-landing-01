@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import Arrow from "../assets/icons/arrow-w.svg";
 import CursorImg from "../assets/images/cursor.png";
 import Msg from "../assets/images/message.png";
+import { motion } from "framer-motion";
 
 export const Hero = () => {
   return (
@@ -25,16 +28,29 @@ export const Hero = () => {
               One Task <br />
               at a Time
             </h1>
-            <Image
-              src={CursorImg}
-              alt=""
-              className=" hidden md:inline w-40 h-40 absolute top-[36%] left-[-35%] floating"
-            />
-            <Image
-              src={Msg}
-              alt=""
-              className=" hidden md:inline w-40 h-40 absolute top-[36%] right-[-29%]"
-            />
+            <motion.div
+              drag
+              dragSnapToOrigin
+              className="hidden md:inline absolute top-[36%] left-[-35%]"
+            >
+              <Image
+                height={150}
+                width={150}
+                src={CursorImg}
+                alt=""
+                className=" max-w-none "
+                draggable="false"
+              />
+            </motion.div>
+            <motion.div className="hidden md:inline absolute top-[36%] right-[-29%] floating">
+              <Image
+                src={Msg}
+                height={150}
+                width={150}
+                alt=""
+                className=" max-w-none"
+              />
+            </motion.div>
           </div>
           <p className=" text-white text-center md:text-xl md:item-center md:w-[448px] px-10 ">
             Celebrate the joy of accomplishment with an app designed to track
