@@ -63,7 +63,7 @@ export const CallToAction: React.FC = () => {
             />
             <button
               type="submit"
-              className="bg-slate-200 w-full md:w-[150px] text-zinc-800 px-4 py-2 rounded-md hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="bg-slate-200 w-full md:w-[150px] text-zinc-800 px-4 py-2 rounded-md hover:bg-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               Get Access
             </button>

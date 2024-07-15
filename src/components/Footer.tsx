@@ -10,11 +10,45 @@ export const Footer = () => {
         <p className=" pt-5 md:py-10 opacity-50">
           © 2024 Your Company, Inc. All rights reserved
         </p>
-        <div className=" flex gap-2 text-gray-500 md:py-10 py-5 justify-center">
-          <Linkedin />
-          <Youtube />
-          <Xsocial />
-          <Insta />
+        <div className=" text-gray-500 md:py-10 pt-3">
+          <ul className=" flex gap-3 justify-center">
+            <li>
+              <a
+                className=" hover:text-slate-200 transition-all duration-500 ease"
+                target="_blank"
+                href="#"
+              >
+                <Linkedin />
+              </a>
+            </li>
+            <li>
+              <a
+                className=" hover:text-slate-200 transition-all duration-500 ease"
+                target="_blank"
+                href="#"
+              >
+                <Youtube />
+              </a>
+            </li>
+            <li>
+              <a
+                className=" hover:text-slate-200 transition-all duration-500 ease"
+                target="_blank"
+                href="#"
+              >
+                <Xsocial />
+              </a>
+            </li>
+            <li>
+              <a
+                className=" hover:text-slate-200 transition-all duration-500 ease"
+                target="_blank"
+                href="#"
+              >
+                <Insta />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
