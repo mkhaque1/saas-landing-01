@@ -40,7 +40,7 @@ export const Hero = () => {
             Celebrate the joy of accomplishment with an app designed to track
             your progress, motivate your efforts, and celebrate your successes.
           </p>
-          <button className=" z-10 text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:outline-none  dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+          <button className=" z-10 text-gray-900 bg-slate-200 focus:outline-none  dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
             Get for Free
           </button>
         </div>

@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import CardIcon from "../assets/icons/box 1.svg";
 
 interface Feature {
@@ -28,14 +30,26 @@ export const Features: React.FC = () => {
     <div className="bg-black text-white">
       <div className="container py-24 text-center">
         <div className="flex flex-col justify-center items-center mb-5">
-          <h1 className="text-6xl font-bold tracking-tighter">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 100,
+              duration: 5,
+              damping: 5,
+            }}
+            className="text-6xl font-bold tracking-tighter"
+          >
             Everything you need
-          </h1>
-          <p className="py-5 w-full md:w-[576px] md:text-xl">
-            Enjoy customizable lists, team work tools, and smart tracking all in
-            one place. Set tasks, get reminders, and see your progress simply
-            and quickly.
-          </p>
+          </motion.h1>
+          <div className=" max-w-xl mx-auto">
+            <p className="py-5 md:text-xl">
+              Enjoy customizable lists, team work tools, and smart tracking all
+              in one place. Set tasks, get reminders, and see your progress
+              simply and quickly.
+            </p>
+          </div>
         </div>
         <div className="card md:flex md:gap-3 xl:gap-5">
           {features.map(({ title, description }, index) => (

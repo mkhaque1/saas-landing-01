@@ -4,10 +4,12 @@ export const Banner = () => {
       <div className="container ">
         <div>
           <p className=" underline underline-offset-4 font-medium">
-            <span className=" hidden sm:inline">
+            <span className=" hidden md:inline">
               Introducing a completely redesigned interface — Explore the demo
             </span>
-            <a href="#">Explore the demo</a>
+            <a className=" md:hidden" href="#">
+              Explore the demo
+            </a>
           </p>
         </div>
       </div>
