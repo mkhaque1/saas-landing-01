@@ -81,7 +81,7 @@ export const FAQs: React.FC = () => {
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.3, type: "ease", damping: 5 }}
+                    transition={{ duration: 0.3, type: "ease", damping: 1 }}
                   >
                     <p className="p-5 text-left mb-3 border-b border-white/35 bg-gradient-to-r from-purple-900 to-zinc-800">
                       {answer}
