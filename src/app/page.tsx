@@ -7,6 +7,8 @@ import { ProductShowcase } from "@/components/ProductShowcase";
 import { FAQs } from "@/components/FAQs";
 import { CallToAction } from "@/components/CallToAction";
 import { Footer } from "@/components/Footer";
+import { BentoGrid } from "@/components/ui/bento-grid";
+import { Bento } from "@/components/Bento";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Hero />
       <LogoTicker />
       <Features />
+      <BentoGrid />
+      <Bento />
       <ProductShowcase />
       <FAQs />
       <CallToAction />

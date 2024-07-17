@@ -17,7 +17,7 @@ export const ProductShowcase = () => {
 
   return (
     <div className="bg-black bg-[linear-gradient(to_bottom,#000000,#5D2CA8)] text-white">
-      <div className="container py-10 text-center">
+      <div className="container py-20 text-center">
         <div className="flex flex-col gap-5 justify-center items-center mb-5">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
