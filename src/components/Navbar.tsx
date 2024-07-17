@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logoimg from "../assets/images/logosaas.png";
+import logoimg from "../assets/images/main.png";
 import MenuIcon from "../assets/icons/menu.svg";
 
 export const Navbar = () => {
@@ -7,8 +7,8 @@ export const Navbar = () => {
     <div className="bg-black">
       <div className=" container flex justify-between px-5 py-4 ">
         <div className=" relative">
-          <div className=" absolute w-full blur-lg top-0 bottom-2 bg-[linear-gradient(to_right,#FCD6FF,#29D8FF,#FFFD80,#F89ABF)]"></div>
-          <Image src={logoimg} alt="logo" className=" w-10 h-10 relative" />
+          <div className=" absolute w-full blur-xl top-0 bottom-4 bg-[linear-gradient(to_right,#FCD6FF,#29D8FF,#FFFD80,#F89ABF)]"></div>
+          <Image src={logoimg} alt="logo" className=" w-14 h-14 relative" />
         </div>
 
         <div className="content-center border border-zinc-300 h-10 w-10 border-opacity-30 inline-flex justify-center items-center rounded-lg sm:hidden">

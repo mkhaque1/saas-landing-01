@@ -28,7 +28,7 @@ const features: Feature[] = [
 export const Features: React.FC = () => {
   return (
     <div className="bg-black text-white">
-      <div className="container py-24 text-center">
+      <div className="container py-20 md:py-10 text-center">
         <div className="flex flex-col justify-center items-center mb-5">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
