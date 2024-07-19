@@ -24,7 +24,7 @@ export const CallToAction: React.FC = () => {
             transition={{ type: "spring", stiffness: 100, duration: 5 }}
             className="text-5xl md:text-7xl font-bold tracking-tighter text-center"
           >
-            Get instant access
+            Get Started Today
           </motion.h1>
           <motion.div drag dragSnapToOrigin>
             <Image
@@ -42,8 +42,9 @@ export const CallToAction: React.FC = () => {
           />
           <div className="max-w-xl mx-auto">
             <p className="py-5 md:text-xl text-center">
-              Celebrate the joy of accomplishment with an app designed to track
-              your progress and motivate your efforts.
+              Take charge of your email marketing with our self-hosted solution.
+              Contact us now to set up an instance and start experiencing the
+              benefits.
             </p>
           </div>
         </div>
@@ -65,7 +66,7 @@ export const CallToAction: React.FC = () => {
               type="submit"
               className="bg-slate-200 w-full md:w-[150px] text-zinc-800 px-4 py-2 rounded-md hover:bg-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
-              Get Access
+              Get Demo
             </button>
           </form>
         </div>

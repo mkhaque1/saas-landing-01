@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import appScreen from "../assets/images/app-screen.png";
+import appScreen from "../assets/images/email.jpeg";
 import Image from "next/image";
 import { useRef } from "react";
 

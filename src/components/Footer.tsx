@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className=" bg-black">
       <div className=" container flex-col text-center md:flex-row  justify-between text-white border-t border-slate-400/45">
         <p className=" pt-5 md:py-10 opacity-50">
-          © 2024 Your Company, Inc. All rights reserved
+          © 2024 Pyonet, All rights reserved
         </p>
         <div className=" text-gray-500 md:py-10 pt-3">
           <ul className=" flex gap-3 justify-center">

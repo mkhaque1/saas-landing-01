@@ -5,7 +5,7 @@ export const Banner = () => {
         <div>
           <p className=" underline underline-offset-4 font-medium">
             <span className=" hidden md:inline">
-              Introducing a completely redesigned interface — Explore the demo
+              Introducing a completely marketing interface — Explore the demo
             </span>
             <a className=" md:hidden" href="#">
               Explore the demo

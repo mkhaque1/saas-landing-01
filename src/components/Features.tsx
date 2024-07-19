@@ -9,19 +9,19 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "Integration Ecosystem",
+    title: "Unlimited Subscribers",
     description:
-      "Enhance your productivity by connecting with your tools, keeping your essentials in one place.",
+      "Unlike subscription-based services that limit the number of users, our solution allows you to have unlimited subscribers, expanding your reach without additional costs.",
   },
   {
-    title: "Goal Setting and Tracking",
+    title: "No Recurring Fees",
     description:
-      "Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight.",
+      "Say goodbye to monthly subscription fees. With our self-hosted solution, you make a one-time investment, saving significantly in the long run.",
   },
   {
-    title: "Secure Data Encryption",
+    title: "Access to All Features",
     description:
-      "With end-to-end encryption, your data is securely stored and protected from unauthorized access.",
+      "Enjoy all the pro features without the need to upgrade or choose higher-tier packages. Our solution comes fully loaded with all the tools you need to succeed.",
   },
 ];
 
@@ -41,13 +41,12 @@ export const Features: React.FC = () => {
             }}
             className="text-6xl font-bold tracking-tighter"
           >
-            Everything you need
+            Why Choose Self-Hosting?
           </motion.h1>
           <div className=" max-w-xl mx-auto">
             <p className="py-5 md:text-xl">
-              Enjoy customizable lists, team work tools, and smart tracking all
-              in one place. Set tasks, get reminders, and see your progress
-              simply and quickly.
+              By opting for a self-hosted email marketing solution, you can
+              enjoy:
             </p>
           </div>
         </div>

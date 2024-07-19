@@ -24,9 +24,8 @@ export const Hero = () => {
             </span>
           </a>
           <div className=" relative">
-            <h1 className=" font-bold text-[72px] md:text-9xl tracking-tighter text-center text-white leading-[72px]">
-              One Task <br />
-              at a Time
+            <h1 className=" font-bold text-[37px] md:text-7xl tracking-tighter text-center text-white leading-[52px] md:leading-[92px]">
+              Empower Your Marketing <br /> Without Breaking the Bank
             </h1>
             <motion.div
               drag
@@ -52,9 +51,11 @@ export const Hero = () => {
               />
             </motion.div>
           </div>
-          <p className=" text-white text-center md:text-xl md:item-center md:w-[448px] px-10 ">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress, motivate your efforts, and celebrate your successes.
+          <p className=" text-white text-center md:text-xl md:item-center max-w-2xl px-10 ">
+            Why pay exorbitant monthly fees for email marketing when you can
+            have a powerful, self-hosted solution at a fraction of the cost?
+            Discover the freedom and benefits of a self-hosted email marketing
+            solution, tailored to your business needs.
           </p>
           <button className=" z-10 text-gray-900 bg-slate-200 focus:outline-none  dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
             Get for Free
