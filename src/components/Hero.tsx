@@ -24,13 +24,13 @@ export const Hero = () => {
             </span>
           </a>
           <div className=" relative">
-            <h1 className=" font-bold text-[37px] md:text-7xl tracking-tighter text-center text-white leading-[52px] md:leading-[92px]">
+            <h1 className=" font-bold text-[37px] md:text-7xl tracking-tighter text-center text-white leading-[40px] md:leading-[92px]">
               Empower Your Marketing <br /> Without Breaking the Bank
             </h1>
             <motion.div
               drag
               dragSnapToOrigin
-              className="hidden md:inline absolute top-[36%] left-[-35%]"
+              className="hidden md:inline absolute top-[36%] left-[-25%]"
             >
               <Image
                 height={150}
@@ -41,7 +41,7 @@ export const Hero = () => {
                 draggable="false"
               />
             </motion.div>
-            <motion.div className="hidden md:inline absolute top-[36%] right-[-29%] floating">
+            <motion.div className="hidden md:inline absolute top-[36%] right-[-19%] floating">
               <Image
                 src={Msg}
                 height={150}
