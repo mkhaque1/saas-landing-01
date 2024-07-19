@@ -30,7 +30,7 @@ export const Hero = () => {
             <motion.div
               drag
               dragSnapToOrigin
-              className="hidden md:inline absolute top-[36%] left-[-25%]"
+              className="hidden md:inline absolute top-[100%] left-[-4%]"
             >
               <Image
                 height={150}
@@ -41,7 +41,7 @@ export const Hero = () => {
                 draggable="false"
               />
             </motion.div>
-            <motion.div className="hidden md:inline absolute top-[36%] right-[-19%] floating">
+            <motion.div className="hidden md:inline absolute top-[100%] right-[-5%] floating">
               <Image
                 src={Msg}
                 height={150}
