@@ -45,7 +45,11 @@ export const ProductShowcase = () => {
               transformPerspective: "800px",
             }}
           >
-            <Image src={appScreen} alt="" />
+            <Image
+              className=" md:w-[70%] md:h-[70%] w-full inline-flex justify-center rounded-3xl "
+              src={appScreen}
+              alt=""
+            />
           </motion.div>
         </div>
       </div>
