@@ -24,7 +24,7 @@ export const Hero = () => {
             </span>
           </a>
           <div className=" relative">
-            <h1 className=" font-bold text-[37px] md:text-7xl tracking-tighter text-center text-white leading-[40px] md:leading-[92px]">
+            <h1 className=" font-bold text-5xl md:text-7xl tracking-tighter text-center text-white leading-[50px] md:leading-[92px]">
               Empower Your Marketing <br /> Without Breaking the Bank
             </h1>
             <motion.div
